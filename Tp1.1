@@ -1,0 +1,49 @@
+// Punto 1 -------------------------------------------
+
+let a = "esta es la concatenacion";
+let b = "de dos cadenas";
+
+console.log (`${a} ${b}`);
+
+// Punto b --------------------------------------------
+
+let c = 5;
+let d = 6;
+
+console.log("El valor de la sumatoria es: " + (c+d) );
+console.log("El valor de la resta es: " + (c-d) );
+console.log("El valor de la multiplicacion es: " + (c*d) );
+console.log("El valor de la division es: " + (c/d) );
+
+// Punto c --------------------------------------------
+
+let persona1 = {
+    nombre: 'Julio',
+    apellido: 'Velez',
+    sexo : 'M',
+    edad: 63
+}
+
+let persona2 = {
+    nombre: 'Lucio',
+    apellido: 'Benitez',
+    exo : 'M',
+    edad: 63
+}
+
+let persona3 = {
+    nombre: 'Fernanda',
+    apellido: 'Caseres',
+    exo : 'F',
+    edad: 30
+}
+
+if (persona2.sexo == 'F') {
+    if (persona2.edad >= 60) {
+        console.log ("la persona: " + persona2.nombre + " se puede jubilar")
+     }
+ } else
+ if (persona2.edad >= 65) {
+    console.log ("la persona: " + persona2.nombre + " se puede jubilar")
+ } else
+    console.log ("La persona: " + persona2.nombre + " no se puede jubilar aun");
