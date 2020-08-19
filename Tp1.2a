@@ -1,0 +1,36 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trabajo practico</title>
+    <script languaje="javascript">
+
+        function cambiarColorRojo (){
+
+            document.bgColor = "red";
+        }
+        function cambiarColorVerde (){
+
+            document.bgColor = "green";
+        }
+        function cambiarColorAzul (){
+
+            document.bgColor = "blue";
+        }
+        function cambiarColorAmarillo (){
+
+            document.bgColor = "yellow";
+        }
+    </script>
+</head>
+
+<body>
+    <button type= "button" onclick="cambiarColorRojo()">Rojo</button>
+    <button type= "button" onclick="cambiarColorVerde()">Verde</button>
+    <button type= "button" onclick="cambiarColorAzul()">Azul</button>
+    <button type= "button" onclick="cambiarColorAmarillo()">Amarillo</button>
+    </script>
+    <script src="Tp-1,5.js"></script>
+</body>
+
+</html>
