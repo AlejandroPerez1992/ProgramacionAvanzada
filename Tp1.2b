@@ -1,0 +1,5 @@
+function areaRectangulo(base, altura) {
+    console.log(`La base es:  ${base}, y su altura es:  ${altura} , por lo tanto el area sera: ${base * altura}`);
+}
+
+areaRectangulo(5,6);
